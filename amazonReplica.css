@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo{
+    background-image: url("https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png");
+    background-size:contain;
+    height: 60px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 2.2px;
+    background-repeat: no-repeat;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    cursor: pointer;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 35px;
+}
+
+.add-second {
+    color: #FFFF;
+    font-size: 1rem;
+    margin-left: 1px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+}
+
+
+/** box 3**/
+
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 860px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+
+
+/** box 4 **/
+
+
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 14px;
+  background-color: #131A22;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  width: fit-content;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.lang-selector img {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+
+
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: pixelated;  
+}
+
+.lang-selector .arrow {
+  font-size: 10px;
+}
+
+
+/** box 5 **/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/** box 6**/
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/** panel **/
+
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    cursor: pointer;
+}
+
+
+.panel-options p{
+    display: inline;
+    margin-left: 10px;
+}
+
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.panel-options p {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid transparent; /* default invisible border */
+    border-radius: 2px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+
+.panel-options p:hover {
+    border: 1px solid #ffffff;  /* subtle white border on hover */
+    background-color: #37475a;  /* slightly lighter background */
+  }
+
+
+
+/** hero section**/
+
+
+.hero-section {
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/Fuji_LPHero_FD21_en_US.jpg");
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.hero-section2{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/398409236.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.hero-section21{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/197102040.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    cursor: pointer;
+}
+
+
+.hero-section22{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/322396794.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    display: flex;
+    cursor: pointer;
+}
+.hero-section24{
+    width: 350px;
+    margin-left: 374px;
+    background-size: cover;
+    display: flex;
+}
+
+
+.caption1 a{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 175px;
+    cursor: pointer;
+}
+
+
+.caption1 a1 {
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+.caption1 a2{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+.caption1 a3{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+/**another box**/
+
+.hero-section30{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/263466787.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero-section31{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/41yHQ2pUhAL.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    cursor: pointer;
+}
+
+
+.hero-section32{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/LandingPages/258726044.jpg");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    display: flex;
+    cursor: pointer;
+}
+
+.hero-section33{
+    width: 350px;
+    margin-left: 374px;
+    background-size: cover;
+    display: flex;
+    cursor: pointer;
+
+}
+
+/** another box 2**/
+
+.caption4 a{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 175px;
+    cursor: pointer;
+}
+
+
+.caption41 a1 {
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+.caption41 a2{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+.caption41 a3{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+/**3rd box of items**/
+
+.hero-section5{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/MothersDay/495082102.jpg");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.hero-section51{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/61uFK0GI1eL.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    cursor: pointer;
+}
+
+
+.hero-section52{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/LandingPages/61Rrv-bvdhL.jpg");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.hero-section54{
+    width: 350px;
+    margin-left: 374px;
+    background-size: cover;
+    display: flex;
+    cursor: pointer;
+
+}
+
+/** captions for 3rd box**/
+
+.caption6 a{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
+.caption61 a1 {
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 286px;
+    cursor: pointer;
+}
+
+.caption61 a2{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 330px;
+    cursor: pointer;
+}
+
+.caption61 a3{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 290px;
+    cursor: pointer;
+}
+
+/** last and final box of items/**/
+
+.hero-section7{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/295047526.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.hero-section71{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/89517109.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    cursor: pointer;
+}
+
+
+.hero-section72{
+    background-image: url("https://m.media-amazon.com/images/G/01/AmazonExports/Events/2021/FathersDay/73711120.png");
+    margin-top: 19px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 374px;
+    display: flex;
+    cursor: pointer;
+}
+
+.hero-section74{
+    width: 350px;
+    margin-left: 374px;
+    background-size: cover;
+    display: flex;
+    cursor: pointer;
+
+}
+
+/**captions for the last box**/
+
+.caption8 a{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
+.caption81 a1 {
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 286px;
+    cursor: pointer;
+}
+
+
+.caption81 a2{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 330px;
+    cursor: pointer;
+}
+
+
+.caption81 a3{
+    margin: 2px;
+    margin-left: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 640;
+    margin-left: 290px;
+    cursor: pointer;
+}
+
+/**shop deals for dad box**/
+
+
+.new-hero {
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+    background-color: #2e3c68;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 42px;
+      font-weight: bold;
+      font-family: sans-serif;
+      cursor: pointer;
+}
+
+
+footer {
+  background-color: #131A22;
+  color: white;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.back-to-top {
+  background-color: #37475A;
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #3a4553;
+}
+
+.footer-column {
+  min-width: 160px;
+}
+
+.footer-column h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-column ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  gap: 15px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-options button {
+  background-color: transparent;
+  border: 1px solid #848688;
+  color: #ccc;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.footer-options button:hover {
+  border-color: white;
+  color: white;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
